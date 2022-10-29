@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+click = "*"
+numpy = "*"
+matplotlib = "*"
+imutils = "*"
+
+[dev-packages]
+jupyter = "*"
+
+[scripts]
+capture = "python -m robotik_anwendungen"
+camera = "python robotik_anwendungen.main"
+
+[requires]
+python_version = "3.8"
